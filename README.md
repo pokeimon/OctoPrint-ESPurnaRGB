@@ -1,5 +1,5 @@
 # OctoPrint-ESPurnaRGB
-OctoPrint plugin for controling ESPurna RGB LED device via REST API using M150 GCODE
+OctoPrint plugin for controlling ESPurna RGB LED device via REST API using M150 GCODE
 
         M150: Set Status LED Color - Use R-U-B for R-G-B
         M150 R255       ; Turn LED red
