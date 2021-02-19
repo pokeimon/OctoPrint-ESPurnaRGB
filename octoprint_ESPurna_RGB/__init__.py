@@ -1,5 +1,5 @@
 # coding=utf-8
-from __future__ import absolute_import
+from __future__ import absolute_import, unicode_literals
 
 import octoprint.plugin
 import requests
@@ -26,7 +26,7 @@ class ESPurna_RGBPlugin(octoprint.plugin.StartupPlugin,
 
 	def get_template_configs(self):
 		return [
-			dict(type="settings", name="Espruna LED Settings", custom_bindings=False)
+			dict(type="settings", custom_bindings=False),
 		]
 
 	def handle_M150(self, comm_instance, phase, cmd, cmd_type, gcode, *args, **kwargs):
@@ -77,6 +77,7 @@ class ESPurna_RGBPlugin(octoprint.plugin.StartupPlugin,
 		)
 
 __plugin_name__ = "Espurna RGB"
+__plugin_pythoncompat__ = ">=2.7,<4"
 
 def __plugin_load__():
 	global __plugin_implementation__
