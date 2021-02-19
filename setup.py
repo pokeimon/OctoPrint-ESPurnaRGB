@@ -3,7 +3,7 @@
 plugin_identifier = "ESPurna_RGB"
 plugin_package = "octoprint_ESPurna_RGB"
 plugin_name = "OctoPrint-ESPurna_RGB"
-plugin_version = "1.0.0"
+plugin_version = "1.1.0"
 plugin_description = """Controling Epurna RGB LED device over wifi"""
 plugin_author = "Imon Daneshmand"
 plugin_author_email = "imondaneshmand@gmail.com"

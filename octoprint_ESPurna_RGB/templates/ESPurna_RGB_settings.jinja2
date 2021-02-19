@@ -1,16 +1,16 @@
-<h4>{{ _('Espurna RGB Configuration') }}</h4>
-
-<form class="form-horizontal">
-    <div class="control-group">
-        <label class="control-label">{{ _('Espurna URL') }}</label>
-        <div class="controls">
-            <input type="text" class="input-block-level" data-bind="value: settings.plugins.ESPurna_RGB.url">
-        </div>
-	</div>
-	<div class="control-group">
-		<label class="control-label">{{ _('API Key') }}</label>
-        <div class="controls">
-            <input type="text" class="input-block-level" data-bind="value: settings.plugins.ESPurna_RGB.key">
-        </div>
+<H1>Espurna RGB Configuration</H1>
+<div id="info" class="alert alert-warning">
+    <p>Here you can add your Espurna device. You will need to <b>STATICALLY</b> assign your smart devices IP address before continuing and get the API key.</p>
+</div>
+    <div id="control-group">
+        <p><b><u>Espurna IP Address:</u></b></p>
+        <input type="text" class="input-block-level" data-bind="value: settings.plugins.ESPurna_RGB.url">
     </div>
-</form>
+    <div id="control-group">
+        <p><b><u>Espurna API Key:</u></b></p>
+        <input type="text" class="input-block-level" data-bind="value: settings.plugins.ESPurna_RGB.key">
+    </div>
+    <div id="preferences">
+    </div>
+<div id="data_form">
+</div>

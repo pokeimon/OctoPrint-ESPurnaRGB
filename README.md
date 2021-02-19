@@ -13,7 +13,7 @@ OctoPrint plugin for controlling ESPurna RGB LED device via REST API using M150 
 
 ## Setup
 
-Install via the bundled [Plugin Manager](https://github.com/foosel/OctoPrint/wiki/Plugin:-Plugin-Manager)
+Install via the bundled [Plugin Manager](https://docs.octoprint.org/en/master/bundledplugins/pluginmanager.html)
 or manually using this URL:
 
     https://github.com/pokeimon/OctoPrint-ESPurnaRGB/archive/master.zip
